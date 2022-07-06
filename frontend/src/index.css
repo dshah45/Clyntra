@@ -1,0 +1,258 @@
+.img1{
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  transition: all 0.3s ease 0s;
+}
+.img3{
+  width: 20%;
+}
+.img1:hover {
+  transform: scale(1.25);
+}
+.img2{
+  transition: all 0.3s ease 0s;
+
+}
+.img4{
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.img6{
+  width: 40%;
+  height: 20%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.para3{
+  color: #333;
+  font-size: 16px;
+}
+.head{
+  font-size: 40px;
+}
+.title{
+  color: red;
+  font-size: 20px;
+}
+.bor{
+  text-decoration: none;
+}
+.para1{
+  color: red;
+  text-align: center;
+}
+.carousel .slide img {
+  width: 62%;
+  vertical-align: top;
+  border: 0;
+}
+.para5{
+  color: red;
+  font-size: 15px;
+}
+p,h4.header{
+  color: white;
+}
+h1{
+  font-size: 1.8rem;
+
+  padding: 1rem 0;
+}
+h2{
+  font-size: 1.4rem;
+
+  padding: 0.5rem 0;
+}
+.btn4{
+  margin-top: 0;
+}
+.icon{
+  margin: 0;
+  width: 100%;
+}
+.para2{
+  font-size: 30px;
+  text-decoration: none;
+}
+.copyright{
+  color: white;
+  text-align: center;
+}
+h5.head{
+  color: white;
+}
+.filter {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  margin: 1rem;
+  border-bottom: 0.1rem #c0c0c0 solid;
+}
+.filter div {
+  flex: 1;
+}
+#footer {
+  background: #343a40!important;
+  padding: 20px 0;
+}
+#footer ul {
+  padding-left: 0;
+  list-style: none;
+}
+#footer ul a {
+  color: white;
+  text-decoration: none;
+}
+#footer ul a:hover {
+  color: gray;
+  text-decoration: none;
+}
+#footer .social {
+  text-align: left;
+}
+#footer .social a {
+  margin: 0 10px 0 0;
+  color: #fff;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  line-height: 26px;
+  font-size: 15px;
+  text-align: center;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  vertical-align: bottom;
+  background-color: #555555;
+}
+#footer .social a i {
+  vertical-align: bottom;
+  line-height: 30px;
+}
+#footer .social a.facebook:hover {
+  background-color: #4460ae;
+}
+#footer .social a.gplus:hover {
+  background-color: #c21f25;
+}
+#footer .social a.twitter:hover {
+  background-color: #3cf;
+}
+#footer .social a.instagram:hover {
+  background-color: #cd4378;
+}
+#footer .social a.email:hover {
+  background-color: #4a7f45;
+}
+#copyright {
+  background: #333;
+  color: #ccc;
+  padding: 20px 0;
+  font-size: 12px;
+}
+#copyright p {
+  margin: 0;
+}
+@media (max-width: 991px) {
+  #copyright p {
+    float: none !important;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+}
+#style-switch-button {
+  position: fixed;
+  top: 80px;
+  left: 20px;
+}
+#style-switch {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 200px;
+  padding: 20px;
+  position: fixed;
+  top: 120px;
+  left: 20px;
+  background: #fff;
+  border: solid 1px #eeeeee;
+}
+footer-container {
+  font-family: 'Lato';
+}
+
+.btn-light {
+  color: #000;
+  background-color: #fff;
+  border-color: #fff;
+  margin-top: 12px;
+  margin-left: 40px;
+}
+
+
+.deals_container {
+  display: flex;
+  flex-direction: row;
+  margin: 0
+}
+
+.deals_slide {
+  position: relative;
+  margin: 0;
+  width: 80%;
+  background: white;
+  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.75);
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+}
+
+.heading_button {
+
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 12px;
+  cursor: pointer;
+  background-color: #2874f0;
+  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.75);
+}
+
+button:focus {
+  outline: none;
+}
+
+.deals-box {
+  margin-left: 10px;
+  margin-right: 10px;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.75);
+}
+
+
+@media (max-width: 768px) {
+
+  .deals-box,
+  .deals_slide {
+      display: none;
+  }
+}
+
+.deals_container{
+  width: auto;
+}

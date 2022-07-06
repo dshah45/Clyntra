@@ -1,0 +1,54 @@
+import React, { useState, useEffect } from "react";
+
+import { Row, Col } from 'react-bootstrap'
+import { Link } from "react-router-dom";
+
+import Product from "../components/Product";
+
+
+import axios from "axios";
+
+function Top({match}) {
+  const [products, setProducts] = useState([]);
+
+  useEffect(() => {
+    async function fetchProducts() {
+      const { data } = await axios.get("http://127.0.0.1:8000/api/top/");
+      setProducts(data);
+    }
+    fetchProducts();
+  }, []);
+  return (
+    <div>
+    
+    <br />
+      <h1>Top Wear</h1>
+      <Row>
+        
+        <Col md={3}>
+        <div>{products.length} Products</div>
+        <Link to="/" className="btn btn-light my-3">
+        Go Back
+      </Link>
+    
+      <Row>
+        <Link style={{ textDecoration: 'none' }} to="/leehigh">Prices <i class="fas fa-arrow-up"></i></Link>
+        <br />
+        <br />
+        <Link style={{ textDecoration: 'none' }}to="/leelow">Prices <i class="fas fa-arrow-down"></i></Link>
+        <br />
+        <br />
+        
+       </Row>
+       </Col>
+        {products.map((product) => (
+          <Col key={product._id} sm={12} md={6} lg={4} xl={3}>
+            <Product product={product} />
+          </Col>
+        ))}
+      </Row>
+    </div>
+  );
+}
+
+export default Top;
